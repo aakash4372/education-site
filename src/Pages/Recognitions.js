@@ -6,31 +6,29 @@ const Recognitions = () => {
     return (
         <div>
             <h2 className="about-title pb-5 text-center">
-                Our Mission
+                Our Recognitions
             </h2>
             <Container className="py-5">
                 <Row className="align-items-center">
                     {/* Left Column */}
-                    <Col lg={6} className="text-center text-lg-start mb-4 mb-lg-0 px-5"> {/* Added padding for spacing */}
+                    <Col lg={6} className="text-center text-lg-start mb-4 mb-lg-0 px-lg-5">
                         <Image
                             src={`${process.env.PUBLIC_URL}/img/msme.png`}
                             alt="MSME Certification"
                             className="iso-image"
                         />
                         <p className="about-text">
-                            LearnEng Education has achieved a major milestone! We're thrilled to
+                            LEARNENG EDUCATION has achieved a major milestone! We're thrilled to
                             share that our organization is now registered with the Ministry of
                             Micro, Small and Medium Enterprises (MSME), Government of India, and
-                            has also received the prestigious ISO 9001:2015 certification,
-                            acknowledging our commitment to quality management and customer
-                            satisfaction. This achievement reinforces our dedication to
-                            delivering exceptional quality, customer experience, and continuous
-                            improvement, while supporting the nation's economic growth.
+                            has also received the prestigious ISO 9001:2015 certification, acknowledging our commitment to quality management and customer satisfaction.<br /><br />
+                            This achievement reinforces our dedication to delivering exceptional quality, customer experience, and continuous improvement, while supporting the nation's economic growth.
                         </p>
                     </Col>
 
+
                     {/* Right Column */}
-                    <Col lg={6} className="text-center text-lg-start px-5">
+                    <Col lg={6} className="text-center text-lg-start px-lg-5">
                         <Image
                             src={`${process.env.PUBLIC_URL}/img/iso.jpg`}
                             alt="ISO Certification"

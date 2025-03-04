@@ -3,6 +3,10 @@ import "../App.css"; // Import CSS
 import AboutSection from "./About";
 import Mission from "./Mission";
 import Recognitions from "./Recognitions";
+import Speaker from "./Speaker";
+import Ceo from "./Ceo";
+import ImageSlider from "./Imageslider";
+
 
 const HomeSection = () => {
   return (
@@ -17,6 +21,10 @@ const HomeSection = () => {
     <AboutSection/>
     <Mission/>
     <Recognitions/>
+    <Speaker/>
+    <Ceo/>
+    <ImageSlider/>
+  
     </div>
   );
 };

@@ -21,7 +21,7 @@ const MyOffcanvas = () => {
 
           <Nav className="ms-auto d-none gap-4 d-lg-flex">
             <NavLink to="/" className={({ isActive }) => `nav-link mx-2 ${isActive ? "active-link" : ""}`}>Home</NavLink>
-            <NavLink to="/gallery" className={({ isActive }) => `nav-link mx-2 ${isActive ? "active-link" : ""}`}>Gallery</NavLink>
+            <NavLink to="/service" className={({ isActive }) => `nav-link mx-2 ${isActive ? "active-link" : ""}`}>service</NavLink>
             <NavLink to="/contact" className={({ isActive }) => `nav-link mx-2 ${isActive ? "active-link" : ""}`}>Contact</NavLink>
           </Nav>
 
@@ -46,8 +46,8 @@ const MyOffcanvas = () => {
             <NavLink to="/" className={({ isActive }) => `nav-link my-2 d-flex align-items-center ${isActive ? "active-link" : ""}`} onClick={handleClose}>
               <FaHome className="me-2" /> Home
             </NavLink>
-            <NavLink to="/gallery" className={({ isActive }) => `nav-link my-2 d-flex align-items-center ${isActive ? "active-link" : ""}`} onClick={handleClose}>
-              <FaImages className="me-2" /> Gallery
+            <NavLink to="/service" className={({ isActive }) => `nav-link my-2 d-flex align-items-center ${isActive ? "active-link" : ""}`} onClick={handleClose}>
+              <FaImages className="me-2" /> service
             </NavLink>
             <NavLink to="/contact" className={({ isActive }) => `nav-link my-2 d-flex align-items-center ${isActive ? "active-link" : ""}`} onClick={handleClose}>
               <FaPhone className="me-2" /> Contact
