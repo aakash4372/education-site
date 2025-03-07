@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Accordion from "react-bootstrap/Accordion";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const SchoolProgramsAccordion = () => {
@@ -28,7 +29,7 @@ const SchoolProgramsAccordion = () => {
                     <Accordion.Header>Empower Your School with LEARNENG</Accordion.Header>
                     <Accordion.Body>
                         <p>
-                        LEARNENG EDUCATION, a Ministry of MSME, Government of India-registered and ISO 9001:2015 certified company, invites your school to join us on a transformative language learning journey. We offer a range of programs suitable for students of all levels and ages, ensuring the highest standards in education and quality management. Empower your students with the gift of effective communication.
+                            LEARNENG EDUCATION, a Ministry of MSME, Government of India-registered and ISO 9001:2015 certified company, invites your school to join us on a transformative language learning journey. We offer a range of programs suitable for students of all levels and ages, ensuring the highest standards in education and quality management. Empower your students with the gift of effective communication.
                         </p>
                     </Accordion.Body>
                 </Accordion.Item>
@@ -48,6 +49,11 @@ const SchoolProgramsAccordion = () => {
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>
+            <div className="brochure-container" data-aos="fade-up" data-aos-duration="1500">
+                <Button className="brochure-btn" href="/img/brochure.pdf" download>
+                    📄 View Brochure
+                </Button>
+            </div>
         </div>
     );
 };

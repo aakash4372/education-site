@@ -1344,3 +1344,27 @@ scrollbar-thumb:hover {
     height: auto;
   }
 }
+
+
+.brochure-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.brochure-btn {
+  background: linear-gradient(45deg, #ff416c, #ff4b2b, #ff416c);
+  border: none;
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.5s;
+}
+
+.brochure-btn:hover {
+  background: linear-gradient(45deg, #ff4b2b, #ff416c, #ff4b2b);
+  transform: translateY(-3px);
+  box-shadow: 0px 8px 20px rgba(255, 75, 43, 0.6);
+}
