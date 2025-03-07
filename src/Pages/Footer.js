@@ -83,7 +83,7 @@ export default function Footer() {
                                     rel="noreferrer"
                                     className="text-white">
                                     <img
-                                        src={`${process.env.PUBLIC_URL}/img/whatsapp.png`}
+                                        src={`${process.env.PUBLIC_URL}/img/whatsapp (1).png`}
                                         alt="whatsapp"
                                         width="30"
                                         height="30"

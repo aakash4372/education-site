@@ -24,7 +24,7 @@ const FloatingIcons = () => {
             className="whatsapp-image"
           >
             <img
-              src={`${process.env.PUBLIC_URL}/img/whatsapp.png`} // Replace with your actual WhatsApp image path
+              src={`${process.env.PUBLIC_URL}/img/whatsapp (1).png`} // Replace with your actual WhatsApp image path
               alt="WhatsApp"
               className="whatsapp-floating"
             />
